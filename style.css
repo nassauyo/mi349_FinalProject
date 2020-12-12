@@ -1,0 +1,65 @@
+body {
+    background-color: #f4f4f4;
+    color: #868686;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    float: left;
+    color: #868686;
+    text-decoration: none;
+    font-size: 40px;
+    width: 33.3%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+}
+
+.navbar a.active {
+    background-color: #CAEBF2;
+    color: white;
+
+}
+
+.navbar a:hover {
+    font-size: 50px;
+}
+
+#workout_type_desc {
+    padding: 50px;
+    width: 200px;
+}
+
+iframe {
+    border-radius: 30px;
+    border: 0px;    
+}
+
+.workout_examples {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px;
+    grid-gap: 50px;
+    padding: 40px;
+}
+
+.workout_examples p{
+    width: 250px;
+}
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+mark {
+    background-color: #ff3b3f;
+    opacity: 75%;
+    color: white;
+}
